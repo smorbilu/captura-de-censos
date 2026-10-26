@@ -1,0 +1,12 @@
+{
+  "name": "liveness-get-results",
+  "version": "1.0.0",
+  "description": "Lambda para obtener el resultado de una sesion de Face Liveness en Rekognition",
+  "main": "index.js",
+  "dependencies": {
+    "@aws-sdk/client-rekognition": "^3.700.0"
+  },
+  "volta": {
+    "node": "24.0.0"
+  }
+}

@@ -1,0 +1,3 @@
+ALTER TABLE users ADD COLUMN IF NOT EXISTS telefono VARCHAR(30) NOT NULL DEFAULT '';
+
+CREATE UNIQUE INDEX IF NOT EXISTS users_email_lower_key ON users (LOWER(email));

@@ -1,0 +1,83 @@
+<resources>
+
+    <string name="login_title">Sign In</string>
+    <string name="login_email">Email</string>
+    <string name="login_password">Password</string>
+    <string name="login_button">Log in</string>
+    <string name="login_create_account">Create an account</string>
+    <string name="login_error_credentials">Incorrect username or password</string>
+    <string name="login_error_connection">Connection error: %1$s</string>
+
+    <string name="register_title">Create Account</string>
+    <string name="register_name">Name</string>
+    <string name="register_last_name">Last name</string>
+    <string name="register_email">Email</string>
+    <string name="register_phone">Phone</string>
+    <string name="register_password">Password</string>
+    <string name="register_confirm_password">Confirm password</string>
+    <string name="register_button">Sign up</string>
+    <string name="register_have_account">I already have an account</string>
+    <string name="register_error_empty">All fields are required</string>
+    <string name="register_error_password_mismatch">Passwords do not match</string>
+    <string name="register_error_email_exists">That email is already registered</string>
+    <string name="register_error_invalid_email">The email is not valid</string>
+    <string name="register_error_invalid_data">Please check the data you entered</string>
+    <string name="register_error_connection">Connection error: %1$s</string>
+    <string name="profile_photo_description">Profile photo</string>
+    <string name="profile_photo_change">Change profile photo</string>
+    <string name="profile_photo_camera">Take photo</string>
+    <string name="profile_photo_gallery">Choose from gallery</string>
+    <string name="profile_photo_cancel">Cancel</string>
+    <string name="profile_photo_saving">Saving photo…</string>
+    <string name="profile_photo_saved">Photo saved</string>
+    <string name="profile_photo_error_read">Could not read the selected image</string>
+    <string name="profile_photo_error_invalid">The photo is not valid or is too large</string>
+    <string name="profile_photo_error_connection">Could not save the photo: %1$s</string>
+    <string name="profile_name">First name</string>
+    <string name="profile_last_name">Last name</string>
+    <string name="profile_user">Username</string>
+    <string name="profile_phone">Phone</string>
+    <string name="profile_role">Role</string>
+    <string name="role_surveyor">Surveyor</string>
+    <string name="role_administrator">Administrator</string>
+    <string name="profile_capture_census">Capture census</string>
+
+    <string name="censo_title">Census Capture</string>
+    <string name="censo_name">First name</string>
+    <string name="censo_last_name">Last name</string>
+    <string name="censo_members">Total household members</string>
+    <string name="censo_televisions">Number of televisions</string>
+    <string name="censo_mark_location">Mark location on the map</string>
+    <string name="censo_location_auto">Your current location (GPS) will be used</string>
+    <string name="censo_location_marked">Marked location: %1$s, %2$s</string>
+    <string name="censo_use_current_location">Use my current location</string>
+    <string name="censo_picker_title">Mark location</string>
+    <string name="censo_picker_hint">Tap the map to place the marker</string>
+    <string name="censo_picker_confirm">Confirm location</string>
+    <string name="censo_picker_cancel">Cancel</string>
+    <string name="censo_save">Save census</string>
+    <string name="censo_saved">Census saved successfully</string>
+    <string name="censo_error_empty">All fields are required</string>
+    <string name="censo_error_numbers">Members must be at least 1 and the numbers valid</string>
+    <string name="censo_error_location">Could not get your location. Turn on GPS and permissions and try again</string>
+    <string name="censo_error_session">Your session is not valid. Log out and sign in again</string>
+    <string name="censo_error_invalid_data">Please check the data you entered</string>
+    <string name="censo_error_connection">Connection error: %1$s</string>
+    <string name="profile_view_map">View map</string>
+    <string name="profile_logout">Log out</string>
+
+    <plurals name="map_title">
+        <item quantity="one">Map - %d census</item>
+        <item quantity="other">Map - %d censuses</item>
+    </plurals>
+    <string name="map_back">Back</string>
+    <string name="map_refresh">Refresh</string>
+    <string name="map_error_load">Could not load the censuses: %1$s</string>
+    <string name="map_dialog_surveyor">Surveyor</string>
+    <string name="map_dialog_date">Date</string>
+    <string name="map_dialog_origin">Origin</string>
+    <string name="map_dialog_location">Location</string>
+    <string name="map_origin_normal">Normal capture</string>
+    <string name="map_origin_bulk">Bulk load</string>
+    <string name="map_dialog_close">Close</string>
+</resources>
